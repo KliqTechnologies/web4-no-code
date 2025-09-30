@@ -81,21 +81,12 @@
 		}
 	],
 	"durable_objects": {
-		"bindings": [
-			{
-				"class_name": "CodeGeneratorAgent",
-				"name": "CodeGenObject"
-			},
-            {
-                "class_name": "UserAppSandboxService",
-                "name": "Sandbox"
-            },
-            {
-                "class_name": "DORateLimitStore",
-                "name": "DORateLimitStore"
-            }
-		]
-	},
+  "bindings": [
+    { "class_name": "UserAppSandboxService", "name": "Sandbox" },
+    { "class_name": "CodeGeneratorAgent", "name": "CodeGenObject" },
+    { "class_name": "DORateLimitStore", "name": "DORateLimitStore" }
+  ]
+},
     "r2_buckets": [
       {
         "binding": "TEMPLATES_BUCKET",
